@@ -25,14 +25,8 @@ Instead of returning raw chunks, results are **deduplicated and ranked at the fi
 
 ## Architecture (High Level)
 
-```
-Query
- → Hybrid Retrieval (Semantic + BM25)
- → Chunk-level scoring
- → File-level dedup & ranking
- → Top-K files
- → LLM (Ollama)
-```
+<img width="1381" height="773" alt="image" src="https://github.com/user-attachments/assets/1017c48a-3ccb-4b1e-81d5-cd460b408319" />
+
 
 ---
 
